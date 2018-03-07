@@ -1,0 +1,26 @@
+{
+  "name": "gilbertoalbino/studiovisual",
+  "description": "Teste para nivelamento de competências para a Studio Visual.",
+  "authors": [
+    {
+      "name": "Gilberto Albino",
+      "email": "contato@gilbertoalbino.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Booglan\\": "src/Booglan"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Booglan\\": "test/Booglan"
+    }
+  },
+  "require": {
+    "ext-bcmath": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
